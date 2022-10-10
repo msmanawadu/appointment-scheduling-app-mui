@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Development
+
+This project uses EditorConfig to standardize text editor configuration. Visit https://editorconfig.org for details.
+
+This project uses ESLint to detect suspicious code in Javascript files. Visit https://eslint.org for details.
