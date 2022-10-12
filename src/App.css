@@ -1,9 +1,52 @@
-.main-heading {
-  display: inline-block;
+.app-logo {
+  color: #424874;
+  font-size: 7rem;
 }
 
-.app-logo {
-  color: rgba(251, 0, 138, 0.928);
-  font-size: 5rem;
-  display: inline-block;
+.form-element-background,
+div.dropdown-menu.show.dropdown-menu-end {
+  background-color: #f4eeff;
+}
+
+input#query:focus {
+  border-color: #424874;
+  box-shadow: none !important;
+  background-color: #f4eeff;
+}
+
+button#input-group-dropdown {
+  background-color: #424874;
+  border-color: #424874;
+}
+
+button#input-group-dropdown:hover {
+  background-color: #a6b1e1;
+  border-color: #a6b1e1;
+  color: #424874;
+}
+
+a.form-element-background.dropdown-item:hover {
+  background-color: #dcd6f7;
+}
+
+/* Media Queries */
+
+@media (min-width: 0px) and (max-width: 390.98px) {
+  .app-logo {
+    font-size: 2.5rem;
+  }
+
+  h1.heading-text {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 391px) and (max-width: 767.98px) {
+  .app-logo {
+    font-size: 3rem;
+  }
+
+  h1.heading-text {
+    font-size: 2rem;
+  }
 }
