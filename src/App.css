@@ -3,12 +3,27 @@
   font-size: 7rem;
 }
 
-.form-element-background,
-div.dropdown-menu.show.dropdown-menu-end {
-  background-color: #f4eeff;
+h1.heading-text {
+  color: #424874;
 }
 
-input#query:focus {
+.form-element-background,
+button.accordion-button {
+  background-color: #dcd6f7;
+}
+
+.search-logo {
+  font-size: 1.5rem;
+}
+
+div.dropdown-menu.show.dropdown-menu-end {
+  width: 300px;
+  background-color: #dcd6f7;
+  padding: 8px 8px;
+}
+
+input#query:focus,
+button.accordion-button:focus {
   border-color: #424874;
   box-shadow: none !important;
   background-color: #f4eeff;
@@ -19,14 +34,46 @@ button#input-group-dropdown {
   border-color: #424874;
 }
 
-button#input-group-dropdown:hover {
-  background-color: #a6b1e1;
-  border-color: #a6b1e1;
+button#input-group-dropdown:hover,
+button.accordion-button:hover {
+  background-color: #f4eeff;
+  border-color: #f4eeff;
   color: #424874;
 }
 
 a.form-element-background.dropdown-item:hover {
-  background-color: #dcd6f7;
+  background-color: #f4eeff;
+}
+
+.add-appointment-logo,
+p.add-appointment-text {
+  color: #424874;
+  font-size: 1.5rem;
+}
+
+.footer-text {
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-size: 1.2rem;
+  color: #424874;
+}
+
+a.footer-icon-links {
+  color: #424874;
+  text-decoration: none;
+}
+
+#footer-icon-github {
+  font-size: 3.5rem;
+  color: #424874;
+}
+
+#footer-icon-github:hover,
+a.footer-icon-links:hover {
+  color: #a6b1e1;
+}
+
+img.msm-logo {
+  width: 25%;
 }
 
 /* Media Queries */

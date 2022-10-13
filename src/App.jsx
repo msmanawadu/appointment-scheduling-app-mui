@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import { SiDatadog } from 'react-icons/si';
 import './App.css';
 import Search from './components/Search';
+import AddAppointment from './components/AddAppointment';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,9 +19,13 @@ function App() {
           </Col>
         </Row>
         <Row>
+          <AddAppointment />
+        </Row>
+        <Row>
           <Search />
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }
